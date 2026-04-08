@@ -94,12 +94,12 @@
       </ode>
     </physics>
 
-    <model name="aws_robomaker_warehouse_RoofB_01_001">
+    <!-- <model name="aws_robomaker_warehouse_RoofB_01_001">
         <include>
             <uri>model://aws_robomaker_warehouse_RoofB_01</uri>
         </include>
         <pose frame="">0.0 0.0 0 0 0 0</pose>
-	</model>
+	</model> -->
 
     <model name="aws_robomaker_warehouse_ShelfF_01_001">
         <include>
@@ -185,12 +185,12 @@
         <pose frame="">0.0 0.0 -0.090092 0 0 0</pose>
 	</model>
        
-        <model name="aws_robomaker_warehouse_Lamp_01_005">
+        <!-- <model name="aws_robomaker_warehouse_Lamp_01_005">
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
         <pose frame="">0 0 -4 0 0 0</pose>
-	</model>
+	</model> -->
        
 	
 
