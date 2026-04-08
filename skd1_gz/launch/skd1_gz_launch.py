@@ -155,8 +155,8 @@ def generate_launch_description():
         executable='parameter_bridge',
         arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
                    '/ardusimple/fix@sensor_msgs/msg/NavSatFix@gz.msgs.NavSat',
-                   '/mti_630_8A1G6/imu/data@sensor_msgs/msg/Imu@gz.msgs.IMU',
-                   '/mti_630_8A1G6/imu/mag@sensor_msgs/msg/MagneticField@gz.msgs.Magnetometer',
+                   '/phidgets_373223/imu/data@sensor_msgs/msg/Imu@gz.msgs.IMU',
+                   '/phidgets_373223/imu/mag@sensor_msgs/msg/MagneticField@gz.msgs.Magnetometer',
                    '/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
                    '/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked'
                 ],
