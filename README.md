@@ -1,2 +1,2 @@
-# skd1_simulation
-Simulation packages for SKD-1
+# SKD-1 simulation packages
+ROS 2 packages containing launchers and configurations for the SKD-1 simulation using Gazebo.
