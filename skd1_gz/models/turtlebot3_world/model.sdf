@@ -4,7 +4,7 @@
       <static>1</static>
       <link name='symbol'>
         <collision name='one_one'>
-          <pose>-1.1 -1.1 0.25 0 0 0</pose>
+          <pose>-2.2 -2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -24,7 +24,7 @@
         </collision>
 
         <visual name='one_one'>
-          <pose>-1.1 -1.1 0.25 0 0 0</pose>
+          <pose>-2.2 -2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -40,7 +40,7 @@
         </visual>
 
         <collision name='one_two'>
-          <pose>-1.1 0 0.25 0 0 0</pose>
+          <pose>-2.2 0 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -60,7 +60,7 @@
         </collision>
 
         <visual name='one_two'>
-          <pose>-1.1 0 0.25 0 0 0</pose>
+          <pose>-2.2 0 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -76,7 +76,7 @@
         </visual>
 
         <collision name='one_three'>
-          <pose>-1.1 1.1 0.25 0 0 0</pose>
+          <pose>-2.2 2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -96,7 +96,7 @@
         </collision>
 
         <visual name='one_three'>
-          <pose>-1.1 1.1 0.25 0 0 0</pose>
+          <pose>-2.2 2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -112,7 +112,7 @@
         </visual>
 
         <collision name='two_one'>
-          <pose>0 -1.1 0.25 0 0 0</pose>
+          <pose>0 -2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -132,7 +132,7 @@
         </collision>
 
         <visual name='two_one'>
-          <pose>0 -1.1 0.25 0 0 0</pose>
+          <pose>0 -2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -184,7 +184,7 @@
         </visual>
 
         <collision name='two_three'>
-          <pose>0 1.1 0.25 0 0 0</pose>
+          <pose>0 2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -204,7 +204,7 @@
         </collision>
 
         <visual name='two_three'>
-          <pose>0 1.1 0.25 0 0 0</pose>
+          <pose>0 2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -220,7 +220,7 @@
         </visual>
 
         <collision name='three_one'>
-          <pose>1.1 -1.1 0.25 0 0 0</pose>
+          <pose>2.2 -2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -240,7 +240,7 @@
         </collision>
 
         <visual name='three_one'>
-          <pose>1.1 -1.1 0.25 0 0 0</pose>
+          <pose>2.2 -2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -256,7 +256,7 @@
         </visual>
 
         <collision name='three_two'>
-          <pose>1.1 0 0.25 0 0 0</pose>
+          <pose>2.2 0 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -276,7 +276,7 @@
         </collision>
 
         <visual name='three_two'>
-          <pose>1.1 0 0.25 0 0 0</pose>
+          <pose>2.2 0 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -292,7 +292,7 @@
         </visual>
 
         <collision name='three_three'>
-          <pose>1.1 1.1 0.25 0 0 0</pose>
+          <pose>2.2 2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -312,7 +312,7 @@
         </collision>
 
         <visual name='three_three'>
-          <pose>1.1 1.1 0.25 0 0 0</pose>
+          <pose>2.2 2.2 0.25 0 0 0</pose>
           <geometry>
             <cylinder>
               <radius>0.15</radius>
@@ -329,7 +329,7 @@
 
         <!-- Draw Hexagon -->
         <collision name='head'>
-          <pose>3.5 0 -0.5 0 0 0</pose>
+          <pose>7.0 0 -1.0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -349,7 +349,7 @@
         </collision>
 
         <visual name='head'>
-          <pose>3.5 0 -0.5 0 0 0</pose>
+          <pose>7.0 0 -1.0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -365,7 +365,7 @@
         </visual>
 
         <collision name='left_hand'>
-          <pose>1.8 2.7 0 0 0 0</pose>
+          <pose>3.6 5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -385,7 +385,7 @@
         </collision>
 
         <visual name='left_hand'>
-          <pose>1.8 2.7 0 0 0 0</pose>
+          <pose>3.6 5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -401,7 +401,7 @@
         </visual>
 
         <collision name='right_hand'>
-          <pose>1.8 -2.7 0 0 0 0</pose>
+          <pose>3.6 -5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -421,7 +421,7 @@
         </collision>
 
         <visual name='right_hand'>
-          <pose>1.8 -2.7 0 0 0 0</pose>
+          <pose>3.6 -5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -437,7 +437,7 @@
         </visual>
 
         <collision name='left_foot'>
-          <pose>-1.8 2.7 0 0 0 0</pose>
+          <pose>-3.6 5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -457,7 +457,7 @@
         </collision>
 
         <visual name='left_foot'>
-          <pose>-1.8 2.7 0 0 0 0</pose>
+          <pose>-3.6 5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -473,7 +473,7 @@
         </visual>
 
         <collision name='right_foot'>
-          <pose>-1.8 -2.7 0 0 0 0</pose>
+          <pose>-3.6 -5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -493,7 +493,7 @@
         </collision>
 
         <visual name='right_foot'>
-          <pose>-1.8 -2.7 0 0 0 0</pose>
+          <pose>-3.6 -5.4 0 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
@@ -514,7 +514,7 @@
         <geometry>
           <mesh>
             <uri>model://turtlebot3_world/meshes/wall.dae</uri>
-            <scale>0.25 0.25 0.25</scale>
+            <scale>0.5 0.5 0.5</scale>
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
@@ -534,7 +534,7 @@
         <geometry>
           <mesh>
             <uri>model://turtlebot3_world/meshes/wall.dae</uri>
-            <scale>0.25 0.25 0.25</scale>
+            <scale>0.5 0.5 0.5</scale>
           </mesh>
         </geometry>
         <material>

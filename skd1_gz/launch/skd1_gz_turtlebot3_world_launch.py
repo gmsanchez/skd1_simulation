@@ -25,7 +25,8 @@ def generate_launch_description():
         launch_arguments = {
             'world_path': world_file,
             'x': '0.0',
-            'y': '-2.0',
+            'y': '-3.5',
+            'z': '0.09',
             'yaw': str(math.pi/2.0),
         }.items(),
     )
