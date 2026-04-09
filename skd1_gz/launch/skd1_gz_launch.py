@@ -153,13 +153,18 @@ def generate_launch_description():
     gz_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-                   '/ardusimple/fix@sensor_msgs/msg/NavSatFix@gz.msgs.NavSat',
-                   '/phidgets_373223/imu/data@sensor_msgs/msg/Imu@gz.msgs.IMU',
-                   '/phidgets_373223/imu/mag@sensor_msgs/msg/MagneticField@gz.msgs.Magnetometer',
-                   '/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
-                   '/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked'
-                ],
+        # https://github.com/gazebosim/ros_gz/blob/ros2/ros_gz_bridge/README.md
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+            '/ardusimple/fix@sensor_msgs/msg/NavSatFix@gz.msgs.NavSat',
+            '/phidgets_373223/imu/data@sensor_msgs/msg/Imu@gz.msgs.IMU',
+            '/phidgets_373223/imu/mag@sensor_msgs/msg/MagneticField@gz.msgs.Magnetometer',
+            '/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
+            '/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked',
+            '/ground_truth/odometry@nav_msgs/msg/Odometry@gz.msgs.Odometry',
+            '/ground_truth/odometry_with_covariance@nav_msgs/msg/Odometry@gz.msgs.OdometryWithCovariance',
+            '/ground_truth/pose@geometry_msgs/msg/PoseArray@gz.msgs.Pose_V',
+        ],
         output='screen'
     )   
  
