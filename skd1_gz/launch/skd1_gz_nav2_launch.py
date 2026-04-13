@@ -77,6 +77,17 @@ def generate_launch_description():
         ),
         launch_arguments= {'use_sim_time': use_sim_time}.items(),
     )
+
+    ekf_global_map_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution(
+                [FindPackageShare("skd1_localization"),
+                "launch",
+                "ekf_global_map_launch.py"],
+            )
+        ),
+        launch_arguments= {'use_sim_time': use_sim_time}.items(),
+    )
     
     online_async_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -102,11 +113,12 @@ def generate_launch_description():
    
 
     ld = LaunchDescription(ARGUMENTS)
-    ld.add_action(spawn_joint_state_broadcaster)
-    ld.add_action(skd1_description)
+    # ld.add_action(spawn_joint_state_broadcaster)
+    # ld.add_action(skd1_description)
     ld.add_action(teleop_twist_mux_launch)
     ld.add_action(teleop_joy_launch)
     ld.add_action(ekf_launch)
+    ld.add_action(ekf_global_map_launch)
     ld.add_action(online_async_launch)
     ld.add_action(nav2_launch)
 
